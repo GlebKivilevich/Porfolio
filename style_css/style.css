@@ -8,7 +8,7 @@ body{
     font-size: 18px;
     color: #828282;
 
-    overflow-x:hidden;  /*убираю нижней скрол*/
+    /*overflow-x:hidden;  /*убираю нижней скрол*/
     
 }
 
@@ -55,15 +55,18 @@ body{
     color: #828282;
 }
 .content_text{
-    display: inline-flex;
+    display: flex;
     align-items: flex-end;
+    width: 880px;
+    justify-content: space-between;
+    margin: 0 auto;
     
 }
-.text_info{
-    margin-left: 145px;
+/*.text_info{
+    margin-left: 125px;
     padding-right: 100px;
        
-}
+}*/
 
 .text_info h1,h3,h4{
     padding-top: 50px;
@@ -137,7 +140,14 @@ body{
     margin: 0 auto;
 }
 .img_women{
+    width: 938px;
+    height: 535px;
     margin-top: 70px;
+    display: flex;
+    margin: 0 auto;
+}
+.burning_img{
+    width: 938px;
 }
 .porfolio_text_women {
     text-align: center;
@@ -240,11 +250,11 @@ body{
 
 
 /*footer*/
+
 /*adaptiv*/
 @media screen and (max-width: 1600px) {
 	.content {
-		width: 1600px;
-       
+		width: 1600px;       
 	}
     .header_text{
         display: flex;
@@ -266,13 +276,21 @@ body{
         padding-left: 5px;
         transition: color .2s linear;
     }
-
+    .content_text{
+        display: flex;
+        align-items: flex-end;
+        width: 980px;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
     .text_info {
         padding-top: 50px;
+        padding-right: 50px;
         color: #070707;
         font-weight: 400;
         margin: 0 auto;
-        margin-left: 105px;
+        margin-left: 75px;
     }
     
     .man_img{
@@ -280,7 +298,8 @@ body{
         margin-right: 15px;
     }
     .img_man_footer{
-        width: 850px;
+        width: 800px;
+        margin-left: 380px;
     }
     .about_me{ 
         width: 1600px;   
@@ -293,7 +312,19 @@ body{
         width: 1600px;
         height: 2250px;
         text-align: center;
-        padding-left: 80px;
+        padding-left: 50px;
+    }
+    .img_women{
+        width: 938px;
+    }
+    .burning_img{
+        width: 938px;
+    }
+    .footer{
+        color: #070707;
+        height: 500px;
+        text-align: center;
+        margin-left: 50px;
     }
 
 }
@@ -309,8 +340,8 @@ body{
         justify-content: center;
     }
     .hr{
-        width: 56.5%;
-        margin: 25px 15% 0 20.5%;  
+        width: 56%;
+        margin: 25px 15% 0 20.3%;  
         color: #828282;
     }
     .nav_link {
@@ -323,14 +354,21 @@ body{
 
         transition: color .2s linear;
     }
-
+    .content_text{
+        display: flex;
+        align-items: flex-end;
+        width: 1000px;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
 
     .text_info {
         padding-top: 50px;
         color: #070707;
         font-weight: 400;
         margin: 0 auto;
-        margin-left: 105px;
+        margin-left: 75px;
     }
     
     .man_img{
@@ -338,7 +376,8 @@ body{
         margin-right: 15px;
     }
     .img_man_footer{
-        width: 850px;
+        width: 815px;
+        margin-left: 290px;
     }
     .about_me{ 
         width: 1440px;   
@@ -353,8 +392,21 @@ body{
         text-align: center;
         padding-left: 80px;
     }
+    .img_women{
+        width: 938px;
+    }
+    .burning_img{
+        width: 938px;
+    }
+    .footer{
+        color: #070707;
+        height: 500px;
+        text-align: center;
+        margin-left: 80px;
+    }
 
 }
+
 @media screen and (max-width: 1380px) {
 	.content {
 		width: 1366px;
@@ -366,16 +418,24 @@ body{
         margin-left: 80px;
     }
     .hr{
-        width: 44.5%;
-        margin: 25px 15% 0 26%;  
+        width: 62%;
+        margin: 25px 15% 0 18%;  
         color: #828282;
     }
-    .text_info {
+    .content_text{
+        display: flex;
+        align-items: flex-end;
+        width: 1030px;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
+    .text_info{
         padding-top: 50px;
         color: #070707;
         font-weight: 400;
         margin: 0 auto;
-        margin-left: 112px;
+        margin-left: 90px;
     }
     .nav_link {
         text-decoration: none;
@@ -393,6 +453,7 @@ body{
     }
     .img_man_footer{
         width: 830px;
+        margin: auto;
     }
     .about_me{ 
         width: 1366px;   
@@ -407,9 +468,21 @@ body{
         text-align: center;
         padding-left: 85px;
     }
-
+    .img_women{
+        width: 938px;
+    }
+    .burning_img{
+        width: 938px;
+    }
+    .footer{
+        color: #070707;
+        height: 500px;
+        text-align: center;
+        margin-left: 80px;
+    }
 }
-@media screen and (max-width: 1400px) {
+
+@media screen and (max-width: 1364px) {
 	.content {
         width: 1360px;
 	}
@@ -424,12 +497,20 @@ body{
         margin: 25px 15% 0 18%;  
         color: #828282;
     }
+    .content_text{
+        display: flex;
+        align-items: flex-end;
+        width: 1030px;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
     .text_info {
         padding-top: 50px;
         color: #070707;
         font-weight: 400;
         margin: 0 auto;
-        margin-left: 110px;
+        margin-left: 90px;
     }
     .nav_link {
         text-decoration: none;
@@ -447,6 +528,7 @@ body{
     }
     .img_man_footer{
         width: 830px;
+        margin: auto;
     }
     .about_me{ 
         width: 1360px;   
@@ -461,8 +543,20 @@ body{
         text-align: center;
         padding-left: 80px;
     }
-
+    .img_women{
+        width: 938px;
+    }
+    .burning_img{
+        width: 938px;
+    }
+    .footer{
+        color: #070707;
+        height: 500px;
+        text-align: center;
+        margin-left: 80px;
+    }
 }
+
 @media screen and (max-width: 1300px) {
 	.content {
 		width: 1280px;
@@ -477,12 +571,20 @@ body{
         margin: 25px 15% 0 17%;  
         color: #828282;
     }
+    .content_text{
+        display: flex;
+        align-items: flex-end;
+        width: 1015px;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
     .text_info {
         padding-top: 50px;
         color: #070707;
         font-weight: 400;
         margin: 0 auto;
-        padding-left: 100px;
+        margin-left: 90px;
     }
     .nav_link {
         text-decoration: none;
@@ -509,6 +611,18 @@ body{
         text-align: center;
         padding-left: 80px;
     }
+    .img_women{
+        width: 938px;
+    }
+    .burning_img{
+        width: 938px;
+    }
+    .footer{
+        color: #070707;
+        height: 500px;
+        text-align: center;
+        margin-left: 80px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -526,12 +640,20 @@ body{
         color: #828282;
 
     }
+    .content_text{
+        display: flex;
+        align-items: flex-end;
+        width: 990px;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
     .text_info {
         padding-top: 50px;
         color: #070707;
         font-weight: 400;
         margin: 0 auto;
-        margin-left: 5px;
+        margin-left: 90px;
     }
     .nav_link {
         text-decoration: none;
@@ -566,13 +688,409 @@ body{
         padding-left: 50px;
         
     }
+    .img_women{
+        width: 938px;
+    }
+    .burning_img{
+        width: 938px;
+    }
+    .footer{
+        color: #070707;
+        height: 500px;
+        text-align: center;
+        margin-left: 80px;
+    }
     
 }
+@media screen and (max-width: 800px) {
+    .content {
+         width: 768px;
+     }
+     .header_text{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .hr{   
+        width: 78%;
+        margin: 25px 15% 0 13.5%;  
+        color: #828282;
 
+    }
+    .content_text{
+        display: flex;
+        align-items: flex-end;
+        width: 685px;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
+    .text_info {
+        padding-top: 50px;
+        padding-right: 15px;
+        color: #070707;
+        font-weight: 400;
+        margin: 0 auto;
+        margin-left: 65px;
+    }
+    .nav_link {
+        text-decoration: none;
+        color: #828282;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        margin-right: 50px;
+        transition: color .2s linear;
+    }
 
-/*adaptiv*/
+    .man_img{
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+    .img_man_footer{
+        width: 600px;
+        margin-left: 105px;
 
-/*
-25 stork
-margin-left: 160px;
-*/
+    }
+    .about_me{ 
+        width: 768px;   
+        height: 410px;
+        color: #070707;
+        background-color: #F6F6F6;
+    }
+    .portfolio_text{
+        padding-left: 60px;
+    }
+    .portfolio{
+        background-color: #F6F6F6;
+        width: 768px;
+        height: 1950px;        
+    }
+    .portfolio_text{
+        padding-right: 70px;
+    }
+    .img_women{
+        width: 600px;
+    }
+    .burning_img{
+        width: 600px;
+    }
+    .reebok_img{
+        width: 600px;
+    }
+    .camera_img{
+        width: 600px;
+    }
+    .footer{
+        color: #070707;
+        height: 500px;
+        text-align: center;
+        margin-left: 50px;
+    }
+ }
+
+ @media screen and (max-width: 450px) {
+    .content {
+         width: 425px;
+     }
+     .header_text{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .hr{   
+        width: 30%;
+        margin: 25px 15% 0 38%;  
+        color: #828282;
+
+    }
+    .content_text{
+        display: flex;
+        align-items: flex-end;
+        width: 425px;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
+    .text_info {
+        padding-top: 50px;
+        padding-right: 15px;
+        color: #070707;
+        font-weight: 400;
+        margin: 0 auto;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .nav_link {
+        text-decoration: none;
+        color: #828282;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        transition: color .2s linear;
+    }
+
+    .man_img{
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+    .img_man_footer{
+        width: 400px;
+        margin-left: 30px;
+
+    }
+    .about_me{ 
+        width: 425px;   
+        height: 410px;
+        color: #070707;
+        background-color: #F6F6F6;
+    }
+    .skill{
+        height: 700px;
+    }
+    .portfolio_text{
+        padding-left: 60px;
+    }
+    .portfolio{
+        background-color: #F6F6F6;
+        width: 425px;
+        height: 1500px;        
+    }
+    .portfolio_text{
+        padding-right: 70px;
+    }
+    .img_women{
+        width: 300px;
+    }
+    .burning_img{
+        width: 300px;
+    }
+    .reebok_img{
+        width: 300px;
+    }
+    .camera_img{
+        width: 300px;
+    }
+    .footer{
+        color: #070707;
+        height: 500px;
+        text-align: center;
+        margin-left: 50px;
+    }
+ }
+ @media screen and (max-width: 390px) {
+    .content {
+         width: 375px;
+     }
+     .header_text{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .hr{   
+        width: 30%;
+        margin: 25px 15% 0 38%;  
+        color: #828282;
+
+    }
+    .content_text{
+        display: flex;
+        align-items: flex-end;
+        width: 375px;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-left: 25px;
+        
+    }
+    .text_info {
+        padding-top: 50px;
+        padding-right: 15px;
+        color: #070707;
+        font-weight: 400;
+        margin: 0 auto;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .nav_link {
+        text-decoration: none;
+        color: #828282;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        transition: color .2s linear;
+    }
+
+    .man_img{
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+    .img_man_footer{
+        width: 340px;
+        margin-left: 74px;
+
+    }
+    .about_me{ 
+        width: 425px;   
+        height: 410px;
+        color: #070707;
+        background-color: #F6F6F6;
+    }
+    .skill{
+        height: 900px;
+    }
+    .text_skill{
+        margin-left: 50px;
+    }
+    .portfolio{
+        background-color: #F6F6F6;
+        width: 425px;
+        height: 1500px;        
+    }
+    .portfolio_text{
+        padding-left: 60px;
+        padding-right: 70px;
+        margin-right: 45px;
+    }
+    .img_women{
+        width: 340px;
+        margin-right: 25px;
+    }
+    .porfolio_text_women{
+        margin-right: 25px;
+    }
+    .burning_img{
+        width: 340px;
+        margin-right: 25px;
+    }
+    .reebok_img{
+        width: 340px;
+        margin-right: 25px;
+    }
+    .text_reebok{
+        margin-right: 35px;
+    }
+    .camera_img{
+        width: 340px;
+        margin-right: 25px;
+
+    }
+    .text_camera{
+        margin-right: 35px;
+    }
+    .footer{
+        color: #070707;
+        height: 500px;
+        text-align: center;
+        margin-left: 50px;
+    }
+ }
+ @media screen and (max-width: 340px) {
+    .content {
+         width: 320px;
+     }
+     .header_text{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .hr{   
+        width: 30%;
+        margin: 25px 15% 0 32%;  
+        color: #828282;
+
+    }
+    .content_text{
+        display: flex;
+        align-items: flex-end;
+        width: 320px;
+        justify-content: space-between;
+        margin: 0 auto;        
+    }
+    .text_info {
+        padding-top: 50px;
+        padding-right: 15px;
+        color: #070707;
+        font-weight: 400;
+        margin: 0 auto;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .nav{
+        margin-right: 70px;
+    }
+    .nav_link {
+        text-decoration: none;
+        color: #828282;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        transition: color .2s linear;
+    }
+
+    .man_img{
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+    .img_man_footer{
+        width: 300px;
+        margin-left: 30px;
+
+    }
+    .about_me{ 
+        width: 320px;   
+        height: 410px;
+        color: #070707;
+        background-color: #F6F6F6;
+    }
+    .skill{
+        height: 900px;
+        margin-right: 50px;
+    }
+    .text_skill{
+        margin-left: 50px;
+    }
+    .portfolio{
+        background-color: #F6F6F6;
+        width: 320px;
+        height: 1450px; 
+        margin-right: 10px;       
+    }
+    .portfolio_text{
+        padding-left: 60px;
+        padding-right: 70px;
+        margin-right: 45px;
+    }
+    .img_women{
+        width: 240px;
+        margin-right: 25px;
+    }
+    .porfolio_text_women{
+        margin-right: 25px;
+    }
+    .burning_img{
+        width: 240px;
+        margin-right: 25px;
+    }
+    .reebok_img{
+        width: 240px;
+        margin-right: 25px;
+    }
+    .text_reebok{
+        margin-right: 35px;
+    }
+    .camera_img{
+        width: 240px;
+        margin-right: 25px;
+
+    }
+    .text_camera{
+        margin-right: 35px;
+    }
+    .footer{
+        color: #070707;
+        height: 500px;
+        text-align: center;
+        margin-left: 10px;
+    }
+ }
