@@ -703,6 +703,7 @@ body{
     
 }
 @media screen and (max-width: 800px) {
+    
     .content {
          width: 768px;
      }
@@ -880,6 +881,9 @@ body{
     }
  }
  @media screen and (max-width: 390px) {
+    body{
+        overflow-x:hidden; 
+    }
     .content {
          width: 375px;
      }
@@ -986,6 +990,9 @@ body{
     }
  }
  @media screen and (max-width: 340px) {
+    body{
+        overflow-x:hidden; 
+    }
     .content {
          width: 320px;
      }
