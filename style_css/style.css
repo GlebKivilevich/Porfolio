@@ -8,7 +8,7 @@ body{
     font-size: 18px;
     color: #828282;
 
-    overflow-x:hidden;  /*убираю нижней скрол*/
+    /*overflow-x:hidden;  /*убираю нижней скрол*/
     
 }
 
@@ -751,7 +751,7 @@ body{
     }
     .img_man_footer{
         width: 600px;
-        margin-left: 105px;
+        margin-left: 102px;
 
     }
     .about_me{ 
@@ -880,9 +880,9 @@ body{
         margin-left: 50px;
     }
  }
- @media screen and (max-width: 390px) {
+ @media screen and (max-width: 380px) {
     body{
-        overflow-x:hidden; 
+        /*overflow-x:hidden; */
     }
     .content {
          width: 375px;
@@ -904,7 +904,6 @@ body{
         width: 375px;
         justify-content: space-between;
         margin: 0 auto;
-        margin-left: 25px;
         
     }
     .text_info {
@@ -931,8 +930,6 @@ body{
     }
     .img_man_footer{
         width: 340px;
-        margin-left: 74px;
-
     }
     .about_me{ 
         width: 375px;   
@@ -944,39 +941,37 @@ body{
         height: 900px;
     }
     .text_skill{
-        margin-left: 50px;
+        margin-left: 0px;
     }
     .portfolio{
         background-color: #F6F6F6;
-        width: 425px;
+        width: 375px;
         height: 1500px;        
     }
     .portfolio_text{
-        padding-left: 60px;
-        padding-right: 70px;
-        margin-right: 45px;
+        margin-right: 75px;
     }
     .img_women{
-        width: 340px;
+        width: 280px;
         margin-right: 25px;
     }
     .porfolio_text_women{
-        margin-right: 25px;
+        margin-right: 55px;
     }
     .burning_img{
-        width: 340px;
-        margin-right: 25px;
+        width: 280px;
+        margin-left: -15px;
     }
     .reebok_img{
-        width: 340px;
-        margin-right: 25px;
+        width: 280px;
+        margin-left: -30px;
     }
     .text_reebok{
         margin-right: 35px;
     }
     .camera_img{
-        width: 340px;
-        margin-right: 25px;
+        width: 280px;
+        margin-left: -30px;
 
     }
     .text_camera{
@@ -986,12 +981,12 @@ body{
         color: #070707;
         height: 500px;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 10px;
     }
  }
  @media screen and (max-width: 340px) {
     body{
-        overflow-x:hidden; 
+        /*overflow-x:hidden; */
     }
     .content {
          width: 320px;
